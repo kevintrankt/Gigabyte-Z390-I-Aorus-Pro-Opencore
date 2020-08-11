@@ -10,7 +10,7 @@ Currently using prebuilt SSDTs. I plan on compiling my own when I have the time.
 * **RAM:** Corsair Vengeance LPX 32 GB (2 x 16 GB) DDR4-2666 CL16 Memory
 * **Motherboard:** Gigabyte Z390 I AORUS PRO WIFI Mini ITX LGA1151 Motherboard
 * **Audio Codec:** Realtek ALC1220
-* **Ethernet Card:** Intel® i219v GbE LAN
+* **Ethernet:** Intel® i219v GbE LAN
 * **Wifi/BT Card:** IOGEAR Bluetooth 4.0 USB Micro Adapter, GBU521 (no wifi)
 * **BIOS revision:** F8c
 
