@@ -2,6 +2,8 @@
 
 This is my Opencore setup for the Gigabyte Z390 I Aorus Pro ITX motherboard. **This should be used as a reference**; there is no guarantee that my set up will work for yours even if you have the same hardware. This was originally a Clover build, but I converted to Opencore because I was tired of having to update so many things for each macOS update with Clover.
 
+Currently using prebuilt SSDTs. I plan on compiling my own when I have the time.
+
 ## Hardware
 * **CPU:** Intel Core i7-8700 3.2 GHz 6-Core Processor
 * **GPU:** Sapphire Radeon RX 5700 XT 8 GB NITRO+ Video Card
@@ -15,6 +17,15 @@ This is my Opencore setup for the Gigabyte Z390 I Aorus Pro ITX motherboard. **T
 ## Software
 * Opencore 0.6.0 DEBUG
 * macOS 1.15.6 Catalina
+
+## Kexts
+* AppleALC - 1.5.1-RELEASE
+* IntelMausi - 1.0.3-RELEASE
+* Lilu - 1.4.6-RELEASE
+* SMCProcessor - 1.1.5
+* SMCSuperIO - 1.1.5
+* VirtualSMC - 1.1.5-RELEASE 
+* WhateverGreen - 1.4.1-RELEASE
 
 ### Process
 1. Follow [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/) for Coffee Lake builds.
