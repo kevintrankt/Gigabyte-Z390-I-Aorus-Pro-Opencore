@@ -1,6 +1,6 @@
 # Gigabyte-Z390-I-Aorus-Pro-Opencore
 
-This is my Opencore setup for the Gigabyte Z390 I Aorus Pro ITX motherboard. This should be used as a reference; there is no guarantee that my set up will work for yours even if you have the same hardware.
+This is my Opencore setup for the Gigabyte Z390 I Aorus Pro ITX motherboard. This should be used as a reference; there is no guarantee that my set up will work for yours even if you have the same hardware. This was originally a Clover build, but I converted to Opencore because I was tired of having to update so many things for each macOS update with Clover.
 
 ## Hardware
 * **CPU:** Intel Core i7-8700 3.2 GHz 6-Core Processor
