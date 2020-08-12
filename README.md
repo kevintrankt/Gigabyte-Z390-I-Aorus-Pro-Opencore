@@ -27,6 +27,9 @@ Currently using prebuilt SSDTs. I plan on compiling my own when I have the time.
 * VirtualSMC - 1.1.5-RELEASE 
 * WhateverGreen - 1.4.1-RELEASE
 
+## What's not working
+Currently anything that requires WiFI isn't working. I ordered a BCM94360CS2 card + a 12+6Pin to NGFF adapter. From what I'm reading, this won't work in the network M.2 slot since this motherboard blocks non-Intel cards. I'll report back once the card comes in the mail.
+
 ### Process
 1. Follow [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/) for Coffee Lake builds.
 2. Ensure `AppleXcpmCfgLock` and `AppleCpuPmCfgLock` are enabled under `Kernel -> Quirks` in order for Opencore to boot into your installation media.
