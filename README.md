@@ -33,3 +33,4 @@ Currently anything that requires WiFI isn't working. I ordered a BCM94360CS2 car
 ### Process
 1. Follow [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/) for Coffee Lake builds.
 2. Ensure `AppleXcpmCfgLock` and `AppleCpuPmCfgLock` are enabled under `Kernel -> Quirks` in order for Opencore to boot into your installation media.
+3. Follow [this doc ](https://dortania.github.io/OpenCore-Post-Install/universal/security.html) to enable FileVault. `AuthRestart`, `UIScale`, `HashServices`, and `ExitBootServicesDelay` unchanged.
