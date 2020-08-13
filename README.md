@@ -15,7 +15,7 @@ Currently using prebuilt SSDTs. I plan on compiling my own when I have the time.
 * **BIOS revision:** F8c
 
 ## Software
-* Opencore 0.6.0 DEBUG
+* Opencore 0.6.0 RELEASE
 * macOS 1.15.6 Catalina
 
 ## Kexts
