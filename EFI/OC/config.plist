@@ -211,7 +211,10 @@
 		<key>Add</key>
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
-			<dict/>
+			<dict>
+				<key>layout-id</key>
+				<data>ABAAAw==</data>
+			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)
 
 </key>
@@ -222,13 +225,6 @@
 				<data>AQAAAA==</data>
 				<key>framebuffer-stolenmem</key>
 				<data>AAAwAQ==</data>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
-			<dict>
-				<key>layout-id</key>
-				<integer>29</integer>
-				<key>alc-delay</key>
-				<integer>1000</integer>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -348,7 +344,7 @@
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>BundlePath</key>
-				<string>USBMap.kext</string>
+				<string>USBPorts.kext</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -591,7 +587,7 @@
 			<key>ThirdPartyDrives</key>
 			<false/>
 			<key>XhciPortLimit</key>
-			<true/>
+			<false/>
 		</dict>
 	</dict>
 	<key>Misc</key>
@@ -716,7 +712,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 debug=0x100 agdpmod=pikera	</string>
+				<string>keepsyms=1 debug=0x100 alcid=1 agdpmod=pikera	</string>
 				<key>run-efi-updater</key>
 				<string>No</string>
 				<key>csr-active-config</key>
@@ -781,7 +777,7 @@
 		<key>Generic</key>
 		<dict>
 			<key>AdviseWindows</key>
-			<true/>
+			<false/>
 			<key>MLB</key>
 			<string></string>
 			<key>ROM</key>
