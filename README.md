@@ -11,7 +11,7 @@ Currently using prebuilt SSDTs. I plan on compiling my own when I have the time.
 * **Motherboard:** Gigabyte Z390 I AORUS PRO WIFI Mini ITX LGA1151 Motherboard
 * **Audio Codec:** Realtek ALC1220
 * **Ethernet:** Intel® i219v GbE LAN
-* **Wifi/BT Card:** IOGEAR Bluetooth 4.0 USB Micro Adapter, GBU521 (no wifi)
+* **Wifi/BT Card:** BCM94360CS2 + Airport to NGFF M.2 Adapter
 * **BIOS revision:** F8c
 
 ## Software
@@ -27,8 +27,13 @@ Currently using prebuilt SSDTs. I plan on compiling my own when I have the time.
 * VirtualSMC - 1.1.5-RELEASE 
 * WhateverGreen - 1.4.1-RELEASE
 
-## What's not working
-Currently anything that requires WiFI isn't working. I ordered a BCM94360CS2 card + a 12+6Pin to NGFF adapter. From what I'm reading, this won't work in the network M.2 slot since this motherboard blocks non-Intel cards. I'll report back once the card comes in the mail.
+## What Works
+* WiFi + Bluetooth
+* iMessage + Facetime
+* Airdrop
+* Sidecar
+* Handoff
+* Continuity
 
 ### Process
 1. Follow [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/) for Coffee Lake builds.
