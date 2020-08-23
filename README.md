@@ -34,6 +34,8 @@ Currently using prebuilt SSDTs. I plan on compiling my own when I have the time.
 * Sidecar
 * Handoff
 * Continuity
+* Sleep
+* Pretty much everything I've tested works.
 
 ### Process
 1. Follow [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/) for Coffee Lake builds.
